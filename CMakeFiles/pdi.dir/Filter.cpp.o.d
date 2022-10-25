@@ -1,8 +1,7 @@
 CMakeFiles/pdi.dir/Filter.cpp.o: \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Filter.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12.2.0/fstream \
- /usr/include/c++/12.2.0/istream /usr/include/c++/12.2.0/ios \
- /usr/include/c++/12.2.0/iosfwd \
+ /home/harsh/Desktop/IP-Wrapper/Filter.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/12.2.0/fstream /usr/include/c++/12.2.0/istream \
+ /usr/include/c++/12.2.0/ios /usr/include/c++/12.2.0/iosfwd \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -135,8 +134,8 @@ CMakeFiles/pdi.dir/Filter.cpp.o: \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/12.2.0/bits/fstream.tcc \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Filter.hpp \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Common.hpp \
+ /home/harsh/Desktop/IP-Wrapper/Filter.hpp \
+ /home/harsh/Desktop/IP-Wrapper/Common.hpp \
  /usr/local/include/opencv4/opencv2/core/core.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
@@ -232,5 +231,5 @@ CMakeFiles/pdi.dir/Filter.cpp.o: \
  /usr/local/include/opencv4/opencv2/imgproc.hpp \
  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
  /usr/include/c++/12.2.0/iostream \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Color.hpp \
+ /home/harsh/Desktop/IP-Wrapper/Color.hpp \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/omp.h

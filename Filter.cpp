@@ -41,11 +41,6 @@ Mat filter_mono(const Mat &img, const Mat &mask)
 	// Adding the padding around the image
 	Mat img_pad;
 	copyMakeBorder(img, img_pad, radius, radius, radius, radius, BORDER_REFLECT101);
-
-	//const unsigned long expected_count= (img.rows + radius) * (img.cols + radius);
-    //boost::progress_display show_progress( expected_count );
-
-	// Starts at the first pixel of the original image (size of the radius)
 	
 	#pragma omp parallel
 	#pragma omp for
@@ -161,27 +156,6 @@ Mat sobel_filter(const Mat &img)
 {
 	Mat img_out = sobel_filter_ver(img) + sobel_filter_hor(img);
 
-	// bool color = true;
-	// if (img_out.type() == CV_32FC1 || img_out.type() == CV_8UC1)
-	// 	color = false;
-
-	// // Handles overflowing pixels
-
-	// for (int j = 0; j < img_out.rows; j++)
-	// {
-	// 	for (int i = 0; i < img_out.cols + color * img.cols * 2; i++)
-	// 	{
-			
-	// 		uchar pixel = img_out.at<uchar>(j, i);
-
-	// 		if (pixel > 255)
-	// 			pixel = 255;
-	// 		else if (pixel < 0)
-	// 			pixel = 0;
-
-	// 		img_out.at<uchar>(j, i) = pixel;
-	// 	}
-	// }
 	return img_out;
 }
 

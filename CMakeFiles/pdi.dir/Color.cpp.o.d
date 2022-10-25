@@ -1,8 +1,6 @@
-CMakeFiles/pdi.dir/Color.cpp.o: \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Color.cpp \
- /usr/include/stdc-predef.h \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Color.hpp \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Common.hpp \
+CMakeFiles/pdi.dir/Color.cpp.o: /home/harsh/Desktop/IP-Wrapper/Color.cpp \
+ /usr/include/stdc-predef.h /home/harsh/Desktop/IP-Wrapper/Color.hpp \
+ /home/harsh/Desktop/IP-Wrapper/Common.hpp \
  /usr/local/include/opencv4/opencv2/core/core.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \

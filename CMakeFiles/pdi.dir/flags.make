@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/harsh/College/popl/check/image-processing-filters/Assignment 1/." -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/home/harsh/Desktop/IP-Wrapper/. -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = -O3 -fopenmp -std=gnu++11
 

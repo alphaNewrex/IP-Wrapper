@@ -1,8 +1,6 @@
-CMakeFiles/pdi.dir/Noise.cpp.o: \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Noise.cpp \
- /usr/include/stdc-predef.h \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Noise.hpp \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Common.hpp \
+CMakeFiles/pdi.dir/Noise.cpp.o: /home/harsh/Desktop/IP-Wrapper/Noise.cpp \
+ /usr/include/stdc-predef.h /home/harsh/Desktop/IP-Wrapper/Noise.hpp \
+ /home/harsh/Desktop/IP-Wrapper/Common.hpp \
  /usr/local/include/opencv4/opencv2/core/core.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
@@ -228,4 +226,4 @@ CMakeFiles/pdi.dir/Noise.cpp.o: \
  /usr/local/include/opencv4/opencv2/imgproc.hpp \
  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
  /usr/include/c++/12.2.0/iostream \
- /home/harsh/College/popl/check/image-processing-filters/Assignment\ 1/Color.hpp
+ /home/harsh/Desktop/IP-Wrapper/Color.hpp
